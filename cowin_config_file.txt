@@ -1,0 +1,13 @@
+
+[cowin_url]
+base_url = https://cdn-api.co-vin.in/api
+otp_gen_url =/v2/auth/public/generateOTP
+otp_conf_url = /v2/auth/public/confirmOTP
+states_data_url = /v2/admin/location/states?Accept-Language=te-IN
+district_data_url = /v2/admin/location/districts/{state_id}?Accept-Language=te_IN
+pincode_data_url = /v2/appointment/sessions/public/findByPin?pincode={pincode}&date={date}
+district_id_url = /v2/appointment/sessions/public/findByDistrict?district_id={district_id}&date={date}
+lat_long_url = /v2/appointment/centers/public/findByLatLong?lat={lat}&long={long}
+calender_by_pin_url =/v2/appointment/sessions/public/calendarByPin?pincode={pincode}&date={date}
+calender_by_center_id_url = /v2/appointment/sessions/public/calendarByCenter?center_id={id}&date={date}
+calender_by_district_id_url = /v2/appointment/sessions/public/calendarByDistrict?district_id={id}&date={date}
